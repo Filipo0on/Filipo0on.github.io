@@ -582,7 +582,7 @@ footer {
 
 /* media queries */
 
-@media (min-width: 769px) {
+@media (min-width: 1079px) {
 
     .navbox {
         display: none
@@ -594,7 +594,10 @@ footer {
 
 }
 
-@media (max-width: 1024px) {
+
+
+@media (max-width: 1080px) {
+
 
     #socialikon {
         width: 40%;
@@ -608,9 +611,10 @@ footer {
         margin: 1%;
     }
 
-}
 
-@media (max-width: 768px) {
+
+
+
 
     #nav {
         display: none
