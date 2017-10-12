@@ -653,6 +653,7 @@ body {
 
     #kontaktsection {
         justify-content: center;
+
     }
 
     #kontaktsection .kontakta p {
@@ -670,10 +671,24 @@ body {
     #kontaktsection .small-screen {
         display: contents;
         flex-basis: 95%;
-       
-
 
     }
+
+ #kontaktsection textarea {
+margin-top: 40px;
+  width: 100%;
+     font-size: 18px;
+
+ }
+    #kontaktsection input {
+
+        width: 100%;
+        font-size: 18px;
+
+    }
+
+
+
 
     /* kundvagn queries */
 
