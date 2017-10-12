@@ -1,0 +1,686 @@
+body {
+
+    background-color: #E4E4E4;
+font-family: helvetica;
+    margin: 0;
+
+}
+
+
+#allt {
+margin-left: 15%;
+margin-right: 15%;
+
+    background-color: white;
+
+
+}
+
+#logo {
+margin-left: 15px;
+
+    width: 50px;
+    height: 50px;
+
+}
+
+
+#allt>header, footer {
+
+    background-color: #8d7afc;
+height: 75px;
+display: flex;
+    align-items: center;
+
+}
+
+#homelogo {
+
+margin-left: 20px;
+
+
+}
+
+
+#nav {
+margin-top: 3px;
+
+
+
+display: flex;
+
+    background-color: #8d7afc;
+
+
+}
+
+.homelista {
+
+    display: flex;
+    justify-content: flex-start;
+    flex-basis: 100%;
+    list-style-type: none;
+    margin-left: -30px;
+
+
+
+}
+#navkundvagn {
+    display: flex;
+
+    flex-basis: 100%;
+    list-style-type: none;
+    margin-left: -30px;
+    justify-content: flex-end;
+}
+
+
+.menyknapp:hover {
+
+    border: 2px inset;
+
+}
+
+
+
+
+
+.menyknapp {
+
+    background-color: #3816fa ;
+    margin-right: 10px;
+    padding: 10px;
+    width: 100px;
+text-decoration: none;
+
+    color: white;
+    border-radius: 4px 10px 4px 10px;
+
+
+}
+
+
+
+
+
+#soffa {
+
+    box-shadow: 3px 3px 4px grey;
+
+}
+#main {
+
+
+    display: flex;
+
+    justify-content: center;
+
+
+}
+
+
+#homesection {
+flex-basis: 85%;
+    flex-direction: column;
+
+
+    display: flex;justify-content: center;
+
+
+}
+
+#homearticle1 {
+
+    margin-bottom: 75px;
+    margin-top: 75px;
+
+    text-align: center;
+
+
+}
+
+
+#homearticle2 {
+
+    margin-bottom: 75px;
+
+    text-align: center;
+
+
+}
+
+
+.container {
+
+    display: flex;
+justify-content: space-around;
+    flex-flow: row wrap;
+
+}
+
+
+.container div {
+
+   border: 1px solid black;
+    height: 200px;
+    width: 200px;
+margin: 10px;
+}
+.bild {
+
+
+    background-color: #3c17ff;
+    width: 100px !important;
+    height: 100px !important;
+
+
+
+}
+
+
+footer {
+    padding-left: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.socialikon {
+    height: 30px;
+    width: 30px;
+    margin-right: 10px;
+}
+
+#socialikon {
+    display: flex;
+    width: 15%;
+    justify-content: space-around;
+}
+
+
+
+
+
+
+
+
+
+
+#kontaktsection
+{
+display: flex;
+flex-basis: 85%;
+justify-content: space-between;
+flex-flow: row nowrap;
+
+}
+
+#kontaktsection article
+{
+margin-bottom: 140px;
+    flex: 1;
+
+}
+
+#kontaktsection p
+{
+
+font-family: 'Helvetica', sans-serif;
+font-size: 13px;
+text-align: left;
+}
+
+
+#kontaktsection input, textarea
+{
+width: 300px;
+font-family: 'Helvetica', sans-serif;
+font-size: 12px;
+margin: 2px;
+padding: 5px;
+border: 1px solid black;
+border-radius: 2px;
+background: lightsteelblue;
+
+}
+
+#kontaktsection textarea
+{
+height: 225px;
+}
+
+#kontaktsection table
+{
+margin-top: 25px;
+font-family: 'Helvetica', sans-serif;
+font-size: 13px;
+font-weight: 600;
+text-align: left;
+}
+
+#kontaktsection table td
+{
+text-align: start;
+}
+
+
+#kontaktsection button
+{
+margin-top: 15px;
+background-color: #3816fa ;
+font-size: 13px;
+padding: 10px;
+width: 130px;
+text-decoration: none;
+color: white;
+border-radius: 4px 10px 4px 10px;
+}
+
+#kontaktsection button:hover
+{
+border: 2px inset;
+}
+
+
+#kontaktsection img
+{
+width: 400px;
+margin-top: 30px;
+margin-bottom: 50px;
+
+}
+
+#kontaktsection span
+{
+color: red;
+    flex-flow: row wrap;
+}
+
+#kontakta
+           {
+    display: contents;
+           }
+
+
+#large-screen
+               {
+    display: contents;
+               }
+#small-screen
+{
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+#kundvagnheader {
+    display: flex;
+    justify-content: center;
+}
+#produkter {
+    margin: 30px 50px;
+    padding: 0px 10px 10px 10px;
+    flex-direction: column;
+    flex-basis: 100%;
+    background-color: rgb(240,240,240);
+}
+
+#första-produkt {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.första-produkt {
+    margin-right: 10px;
+}
+#produktbeskrivning {
+    height: 100%;
+    width: 60%;
+}
+
+#soffaikundvagn {
+    width: 300px;
+    height: 200px;
+    box-shadow: 3px 3px 5px grey;
+}
+
+#summor {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.totalsumma {
+    text-align: left;
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+}
+
+#kundvagnform {
+    background-color: rgb(240,240,240);
+    display: flex;
+    flex-direction: column;
+    margin: 30px 50px;
+    padding: 0px 10px 10px 10px;
+    width: 50%;
+}
+
+.text-inputs, .text-inputs2 {
+    margin-top: 10px;
+}
+
+#leveranssätt {
+    margin-top: 40px;
+}
+
+#shipping {
+    display: flex;
+    flex-direction: column;
+}
+
+#beställknapp {
+    display: flex;
+    justify-content: flex-end;
+}
+
+span {
+    color: red;
+}
+
+
+
+
+
+
+.produktcontainer {
+
+    margin-top: 40px;
+    margin-bottom: 40px;
+    border: solid;
+    display: flex;
+    flex-basis: 95%;
+    flex-direction: column;
+    box-sizing: border-box;
+
+    background-color: #8d7afc;
+    border-radius: 4px 20px;
+
+}
+
+
+.produktart1 {
+
+
+
+
+    text-align: center;
+
+}
+.produktart2 {
+
+
+    box-sizing: border-box;
+
+    display: flex;
+    flex-basis: 90%;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.produktheader {
+
+    margin: 1%;
+
+}
+
+.produkter {
+    box-sizing: border-box;
+    flex-basis: 22%;
+    border: solid;
+    margin-bottom: 10px;
+    height: 40%;
+    background-color: #E4E4E4;
+    text-align: center;
+
+
+
+
+
+}
+.produktbild {
+
+    margin: 5% 10%;
+    height:80%;
+    width: 80%;
+    border-radius: 5px;
+
+}
+#produktmain {
+
+    display: flex;
+    box-sizing: border-box;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+.produktköp {
+
+    color: white;
+    text-align: center;
+    border-radius: 10px;
+    background-color: #3816fa ;
+    width: 45%;
+    margin: 0% 25% 7% 21%;
+    padding: 6%;
+    font-size: 100%;
+}
+
+.produktrubrik {
+
+    text-align: center;
+    margin: 6% 0% 3% 0%;
+
+}
+.produktpris {
+
+
+    margin-bottom: 10px;
+    color: red;
+    font-weight: 600;
+
+
+}
+
+.produktkategori {
+
+
+    text-align: center;
+    margin: 6% 0% 3% 0%;
+
+
+}
+
+
+.produktkategori2 {
+
+    box-sizing: border-box;
+    flex-basis: 22%;
+    border: solid;
+    margin-bottom: 10px;
+    height: 40%;
+    background-color: #E4E4E4;
+    text-align: center;
+
+
+
+}
+
+.produktkategori> a {
+
+
+    text-decoration: none;
+    color: black;
+
+
+}
+
+
+.produktkategori2:hover {
+
+    border: 2px inset;
+
+}
+
+
+
+
+
+@media (max-width: 1000px) {
+
+
+#socialikon{
+    width: 55%;
+
+}
+
+
+
+    .produkter {
+
+
+        flex-basis: 48%;
+
+
+    }
+    #allt {
+
+        margin: 1%
+    ;
+
+    }
+
+
+
+
+}
+
+
+@media (max-width: 768px) {
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    #kontaktsection .large-screen
+    {
+        display: none;
+    }
+
+    #kontaktsection .small-screen
+    {
+        display: contents;
+
+    }
+
+    #kontaktsection p
+    {
+        font-weight: 500;
+    }
+
+
+
+
+
+
+    #kontakta p
+    {
+        transform: scale(1.5);
+    }
+    #kontakta
+    {
+        display: none;
+    }
+
+
+
+    #large-screen
+    {
+        display: none;
+    }
+
+    #small-screen
+    {
+        display: contents;
+    }
+
+
+
+
+
+
+
+
+
+
+    #kundvagnform {
+        width: auto;
+    }
+
+    .text-inputs {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-top: 20px;
+    }
+
+    .text-inputs2 input {
+        transform: scale(2);
+        margin-bottom: 40px;
+    }
+
+    .text-inputs label {
+        flex: 0.2;
+    }
+
+    .inputtexts {
+        height: 40px;
+        flex: 0.8;
+        font-size: 30px;
+    }
+
+    #beställknapp input {
+        border: none;
+        height: 5em;
+        width: 20em;
+        border-radius: 5px;
+    }
+
+
+
+
+
+
+}

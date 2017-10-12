@@ -1,0 +1,164 @@
+
+
+.produktcontainer {
+
+margin-top: 40px;
+    margin-bottom: 40px;
+    border: solid;
+display: flex;
+flex-basis: 95%;
+    flex-direction: column;
+box-sizing: border-box;
+
+    background-color: #8d7afc;
+    border-radius: 4px 20px;
+
+}
+
+
+.produktart1 {
+
+
+
+
+    text-align: center;
+
+}
+.produktart2 {
+
+
+    box-sizing: border-box;
+
+    display: flex;
+    flex-basis: 90%;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.produktheader {
+
+    margin: 1%;
+
+}
+
+.produkter {
+box-sizing: border-box;
+flex-basis: 22%;
+    border: solid;
+    margin-bottom: 10px;
+    height: 40%;
+    background-color: #E4E4E4;
+    text-align: center;
+
+
+
+
+
+}
+.produktbild {
+
+margin: 5% 10%;
+    height:80%;
+    width: 80%;
+    border-radius: 5px;
+
+}
+#produktmain {
+
+    display: flex;
+    box-sizing: border-box;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+.produktköp {
+
+    color: white;
+    text-align: center;
+border-radius: 10px;
+    background-color: #3816fa ;
+    width: 45%;
+margin: 0% 25% 7% 21%;
+    padding: 6%;
+font-size: 100%;
+}
+
+.produktrubrik {
+
+    text-align: center;
+    margin: 6% 0% 3% 0%;
+
+}
+.produktpris {
+
+
+    margin-bottom: 10px;
+    color: red;
+    font-weight: 3000;
+
+
+}
+
+.produktkategori {
+
+
+    text-align: center;
+    margin: 6% 0% 3% 0%;
+
+
+}
+
+
+.produktkategori2 {
+
+    box-sizing: border-box;
+    flex-basis: 22%;
+    border: solid;
+    margin-bottom: 10px;
+    height: 40%;
+    background-color: #E4E4E4;
+    text-align: center;
+
+
+
+}
+
+.produktkategori> a {
+
+
+    text-decoration: none;
+    color: black;
+
+
+}
+
+
+.produktkategori2:hover {
+
+    border: 2px inset;
+
+}
+
+@media (max-width: 900px) {
+
+
+
+    .produkter {
+
+
+    flex-basis: 48%;
+
+
+}
+    #allt {
+
+        margin: 1%
+    ;
+
+    }
+
+
+
+
+}

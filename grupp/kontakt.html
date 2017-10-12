@@ -1,0 +1,158 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="keywords" content="KATTMÖBLER, adress, kontakt, kundservice, kundtjänst, mail, telefon, snigelpost">
+    <meta name="description" content="KATTMÖBLER är måna om god kontakt med våra kunder. Vår kundtjänst finns tillgänglig via telefon alla veckans dagar 24/7 och vi besvarar alla mail inom ett dygn.">
+    <meta name="language" content="sv-SE">
+    <title>KATTMÖBLER | Kontakta</title>
+    <link rel="stylesheet" href="Stil.css" type="text/css">
+</head>
+
+<body>
+<div id="allt">
+
+    <header>
+        <img id="logo" src="img/kattlogo.png">
+        <h1 id="homelogo">kattmöbler</h1>
+    </header>
+
+
+    <nav class="navbox">
+
+        <div class="nav">
+            <a id="länk" href="index.html"> <p>Hem</p></a>
+        </div>
+
+        <div class="nav">
+            <a id="länk" href="Produkter.html"> <p>Produkter</p></a>
+        </div>
+
+        <div class="nav">
+            <a id="länk" href="blogg.html"> <p>Blogg</p></a>
+        </div>
+        <div class="nav">
+            <a id="länk" href="kontakt.html"> <p>Kontata oss</p></a>
+        </div>
+
+        <div id="kundvagnsknapp" class="nav">
+            <a id="länk" href="kundvagn.html"> <p>Kundvagn</p></a>
+        </div>
+
+    </nav>
+
+
+    <nav id="nav">
+
+        <ul class="homelista">
+            <li><a class="menyknapp" href="index.html" title="KATTMÖBLERS startsida.">Hem</a></li>
+            <li><a class="menyknapp" href="Produkter.html" title="KATTMÖBLERS snygga och billiga möbler.">Produkter</a></li>
+            <li><a class="menyknapp" href="blogg.html" title="Vill du kontakta KATTMÖBLER?">Blogg</a></li>
+            <li><a class="menyknapp" href="kontakt.html" title="Vill du kontakta KATTMÖBLER?">Kontakta Oss</a></li>
+        </ul>
+
+        <ul id="navkundvagn">
+            <li><a class="menyknapp" href="kundvagn.html" title="Gå till din kundvagn/beställ.">Gå till kundvagnen</a></li>
+        </ul>
+
+    </nav>
+
+    <div id="sökrutadiv">
+        <form>
+            <input type="text" placeholder="Sök..">
+        </form>
+    </div>
+
+
+    <main>
+
+        <section id="kontaktsection">
+
+            <article class="large-screen0">
+                <header><h2>Kontakta oss</h2></header>
+                <img src="img/kontakta-oss.png" class="kontakta" title="Vi värnar våra kunder och vill maximera hens positiva upplevelse av våra möbler samt av vårt KATTMÖBLER i största allmänhet. Alla som jobbar i vår kundtjänst har stor kunskap om vårt möbelsortiment."
+alt="[bild på kundtjänstpersonal.]">
+                <p>Vi eftersträvar alltid att återkomma angående ditt ärende inom ett dygn.</p>
+                <p>Om du har en fråga gällande en redan levererad produkt vänligen inkludera fakturanummer för bästa möjliga service.</p>
+            </article>
+
+
+            <article class="large-screen">
+
+                <form name="kontakta-oss" action="" method="post">
+
+                    <table>
+                        <tr>
+                            <td>Förnamn:<span>*</span></td>
+                            <td><label for="fname"><input type="text" name="kontakta-oss" id="fname" class="user-input" pattern="[A-Za-zÅåÄäÖö ]{2,20}" required></label></td>
+                        </tr>
+
+                        <tr>
+                            <td>Efternamn:<span>*</span></td>
+                            <td><label for="efternamn"><input type="text" name="kontakta-oss" id="efternamn" class="user-input" pattern="[A-Za-zÅåÄäÖö ]{2,20}" required></label></td>
+                        </tr>
+
+                        <tr>
+                            <td>E-mail:<span>*</span></td>
+                            <td><label for="mejl"><input type="email" name="kontakta-oss" id="mejl"  class="user-input" required></label></td>
+                        </tr>
+
+                        <tr>
+                            <td></td>
+                            <td><textarea id="kommentarer" name="kontakta-oss" placeholder="Beskriv kortfattat ditt ärende" class="user-input" required></textarea></td>
+                        </tr>
+
+                        <tr>
+                            <td></td>
+                            <td><label for="skicka-info"><button type="submit" class="menyknapp" id="skicka-info" name="kontakta-oss">Skicka din fråga!</button></label></td>
+                        </tr>
+                    </table>
+
+                </form>
+
+            </article>
+
+
+            <article class="small-screen">
+
+                <form name="kontakta-oss" action="" method="post">
+
+                    <strong>Kontakta oss</strong>
+                    <p>Vi eftersträvar alltid att återkomma angående ditt ärende inom ett dygn. Om du har en fråga gällande en redan levererad produkt vänligen inkludera fakturanummer för bästa möjliga service.</p>
+
+                    <p>Förnamn:</p>
+                    <label for="fname"><input type="text" name="kontakta-oss" id="fname" class="user-input" pattern="[A-Za-zÅåÄäÖö ]{2,20}" required></label>
+
+                    <p>Efternamn:</p>
+                    <label for="efternamn"><input type="text" name="kontakta-oss" id="efternamn" class="user-input" pattern="[A-Za-zÅåÄäÖö ]{2,20}" required></label>
+
+                    <p>E-mail:</p>
+                    <label for="mejl"><input type="email" name="kontakta-oss" id="mejl"  class="user-input" required></label>
+
+                    <textarea id="kommentarer" name="kontakta-oss" placeholder="Beskriv kortfattat ditt ärende." class="user-input" required></textarea>
+
+                    <p><label for="skicka-info"><button type="submit" class="menyknapp" id="skicka-info" name="kontakta-oss">Skicka din fråga!</button></label></p>
+
+                </form>
+
+            </article>
+
+        </section>
+
+    </main>
+
+
+    <footer>
+        <h4> &copy; KATTMÖBLER AB 2017</h4>
+
+        <div id="socialikon">
+            <a href="#"> <img class="socialikon" src="img/facebook.png" title="Besök vår sida på Facebook!"></a>
+            <a href="#"> <img class="socialikon" src="img/instagram.png" title="Besök vår sida på Instagram!"></a>
+            <a href="#"> <img class="socialikon" src="img/twitter.png" title="Besök vår sida på Twitter!"></a>
+        </div>
+    </footer>
+
+</div>
+</body>
+</html>

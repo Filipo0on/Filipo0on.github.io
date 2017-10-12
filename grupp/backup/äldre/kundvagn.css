@@ -1,0 +1,216 @@
+body {
+    background-color: #E4E4E4;
+    font-family: helvetica;
+    margin: 0;
+}
+
+#allt {
+    margin-left: 15%;
+    margin-right: 15%;
+    background-color: white;
+}
+
+#logo {
+    margin-left: 15px;
+    width: 50px;
+    height: 50px;
+}
+
+#allt>header, footer {
+    background-color: #8d7afc;
+    height: 75px;
+    display: flex;
+    align-items: center;
+}
+
+#homelogo {
+    margin-left: 20px;
+}
+
+#nav {
+    margin-top: 3px;
+    display: flex;
+    background-color: #8d7afc;
+}
+
+.homelista {
+    display: flex;
+    justify-content: flex-start;
+    flex-basis: 100%;
+    list-style-type: none;
+    margin-left: -30px;
+}
+
+#navkundvagn {
+    justify-content: flex-end;
+}
+
+.menyknapp:hover {
+    border: 2px inset;
+    margin-right: 6px;
+}
+
+.menyknapp {
+    background-color: #3816fa ;
+    margin-right: 10px;
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+    border-radius: 4px 10px 4px 10px;
+}
+
+
+
+
+
+
+
+
+
+
+#kundvagnheader {
+    display: flex;
+    justify-content: center;
+}
+#produkter {
+    margin: 30px 50px;
+    padding: 0px 10px 10px 10px;
+    flex-direction: column;
+    flex-basis: 100%;
+    background-color: rgb(240,240,240);
+}
+
+#första-produkt {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.första-produkt {
+    margin-right: 10px;
+}
+#produktbeskrivning {
+    height: 100%;
+    width: 60%;
+}
+
+#soffaikundvagn {
+    width: 300px;
+    height: 200px;
+    box-shadow: 3px 3px 5px grey;
+}
+
+#summor {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.totalsumma {
+    text-align: left;
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+}
+
+#kundvagnform {
+    background-color: rgb(240,240,240);
+    display: flex;
+    flex-direction: column;
+    margin: 30px 50px;
+    padding: 0px 10px 10px 10px;
+    width: 50%;
+}
+
+.text-inputs, .text-inputs2 {
+    margin-top: 10px;
+}
+
+#leveranssätt {
+    margin-top: 40px;
+}
+
+#shipping {
+    display: flex;
+    flex-direction: column;
+}
+
+#beställknapp {
+    display: flex;
+    justify-content: flex-end;
+}
+
+span {
+    color: red;
+}
+
+
+
+@media (max-width: 1024px) {
+    #allt {
+        margin: 0px;
+    }
+}
+
+@media (max-width: 768px) {
+
+   #kundvagnform {
+       width: auto;
+   }
+
+    .text-inputs {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-top: 20px;
+    }
+
+    .text-inputs2 input {
+        transform: scale(2);
+        margin-bottom: 40px;
+    }
+
+    .text-inputs label {
+        flex: 0.2;
+    }
+
+    .inputtexts {
+        height: 40px;
+        flex: 0.8;
+        font-size: 30px;
+    }
+
+    #beställknapp input {
+        border: none;
+        height: 5em;
+        width: 20em;
+        border-radius: 5px;
+    }
+}
+
+
+
+
+
+
+
+
+footer {
+    padding-left: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.socialikon {
+    height: 30px;
+    width: 30px;
+    margin-right: 10px;
+}
+
+#socialikon {
+    display: flex;
+    width: 15%;
+    justify-content: space-around;
+}
+
+@media (max-width: 768px) {
+
+}

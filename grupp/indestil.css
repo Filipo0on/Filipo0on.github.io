@@ -1,0 +1,193 @@
+
+.indicontainer {
+
+    margin-top: 40px;
+    margin-bottom: 40px;
+    border: solid;
+    display: flex;
+    flex-basis: 95%;
+    flex-direction: column;
+    box-sizing: border-box;
+
+    background-color: #8d7afc;
+    border-radius: 4px 20px;
+
+}
+
+
+.produktart3 {
+
+
+
+
+    text-align: center;
+
+}
+.produktart4 {
+
+
+    box-sizing: border-box;
+
+    display: flex;
+    flex-basis: 90%;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.produktheader2 {
+
+    margin: 2%;
+
+}
+
+.produkterindi {
+    box-sizing: border-box;
+    flex-basis: 75%;
+    border: solid;
+    margin-bottom: 10px;
+    height: 40%;
+    background-color: #E4E4E4;
+    text-align: center;
+padding: 3% 10%;
+
+
+}
+
+
+.side {
+    box-sizing: border-box;
+    flex-basis: 20%;
+    border: solid;
+    margin-bottom: 10px;
+    height: 40%;
+    background-color: #E4E4E4;
+    text-align: center;
+
+
+}
+
+
+
+.produktbild2 {
+
+    margin: 0% 0% 4% 0%;
+    height:100%;
+    width: 100%;
+    border-radius: 5px;
+
+}
+
+.snabbfakta {
+
+
+    margin-right: 30%;
+
+
+}
+
+.kopknapp {
+
+color: white;
+text-align: center;
+border-radius: 10px;
+background-color: #3816fa ;
+width: 45%;
+margin: 0% 25% 7% 21%;
+padding: 6%;
+font-size: 100%;
+
+
+ }
+
+@media (max-width: 768px) {
+
+    .produktart4 {
+
+
+        flex-direction: column;
+
+
+    }
+
+    .side {
+        height: 370px;
+
+    }
+
+
+
+.kopknapp {
+
+    margin: 0% 0% 0% 36%;
+    width: 15%;
+
+
+}
+
+
+    .snabbfakta {
+
+
+        margin-right: 8%;
+list-style: none;
+
+    }
+
+
+
+}
+
+
+
+
+
+.blogcontainer {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    border: solid;
+    display: flex;
+    flex-basis: 95%;
+    flex-direction: column;
+    box-sizing: border-box;
+
+    background-color: #8d7afc;
+
+
+
+
+}
+
+
+
+.blogpost {
+    box-sizing: border-box;
+    flex-basis: 95%;
+    border: solid;
+    margin-bottom: 30px;
+    height: 40%;
+    background-color: #E4E4E4;
+    text-align: center;
+    padding: 0% 10% 0% 10%;
+
+    border-radius: 4px 20px;
+}
+
+.datum {
+
+    margin-top: 40px;
+    float: right;
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,85 @@
+#nav {
+margin-top: 3px;
+
+
+
+display: flex;
+
+    background-color: #8d7afc;
+
+
+}
+
+.homelista {
+
+    display: flex;
+    justify-content: flex-start;
+    flex-basis: 100%;
+    list-style-type: none;
+    margin-left: -30px;
+
+
+
+}
+#navkundvagn {
+    display: flex;
+
+    flex-basis: 100%;
+    list-style-type: none;
+    margin-left: -30px;
+    justify-content: flex-end;
+}
+
+
+.menyknapp:hover {
+
+    border: 2px inset;
+
+}
+
+
+
+
+
+.menyknapp {
+
+    background-color: #3816fa ;
+    margin-right: 10px;
+    padding: 10px;
+    width: 100px;
+text-decoration: none;
+
+    color: white;
+    border-radius: 4px 10px 4px 10px;
+
+
+}
+
+
+
+
+
+
+
+ <nav id="nav">
+
+        <ul class="homelista">
+
+
+            <li><a class="menyknapp" href="index.html">Hem</a></li>
+            <li><a class="menyknapp" href="Produkter.html">Produkter</a></li>
+            <li><a class="menyknapp" href="kontakt.html">Kontakta oss</a></li>
+
+
+        </ul>
+
+        <ul id="navkundvagn">
+
+
+            <li> <a class="menyknapp" href="kundvagn.html">Gå till kundvagnen</a></li>
+
+
+
+        </ul>
+
+    </nav>

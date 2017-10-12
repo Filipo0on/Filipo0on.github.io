@@ -1,0 +1,85 @@
+#kontaktsection
+{
+display: flex;
+flex-basis: 85%;
+justify-content: space-between;
+flex-flow: row nowrap;
+}
+
+#kontaktsection article
+{
+margin-bottom: 40px;
+}
+
+#kontaktsection p
+{
+
+font-family: 'Helvetica', sans-serif;
+font-size: 13px;
+text-align: left;
+}
+
+
+#kontaktsection input, textarea
+{
+width: 300px;
+font-family: 'Helvetica', sans-serif;
+font-size: 12px;
+margin: 2px;
+padding: 5px;
+border: 1px solid black;
+border-radius: 2px;
+background: lightsteelblue;
+
+}
+
+#kontaktsection textarea
+{
+height: 225px;
+}
+
+#kontaktsection table
+{
+margin-top: 25px;
+font-family: 'Helvetica', sans-serif;
+font-size: 13px;
+font-weight: 600;
+text-align: left;
+}
+
+#kontaktsection table td
+{
+text-align: start;
+}
+
+
+#kontaktsection button
+{
+margin-top: 15px;
+background-color: #3816fa ;
+font-size: 13px;
+padding: 10px;
+width: 130px;
+text-decoration: none;
+color: white;
+border-radius: 4px 10px 4px 10px;
+}
+
+#kontaktsection button:hover
+{
+border: 2px inset;
+}
+
+
+#kontaktsection img
+{
+width: 400px;
+margin-top: 30px;
+margin-bottom: 50px;
+
+}
+
+#kontaktsection span
+{
+    color: red;
+}
