@@ -669,7 +669,9 @@ body {
 
     #kontaktsection .small-screen {
         display: contents;
-        flex:0;
+        flex-basis: 95%;
+
+
     }
 
     /* kundvagn queries */
